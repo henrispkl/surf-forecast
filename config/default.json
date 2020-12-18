@@ -1,5 +1,8 @@
 {
   "App": {
+    "database": {
+      "mongoUrl": "mongodb+srv://henrispkl:454689@medicare.m4sua.gcp.mongodb.net/surf-forecast?retryWrites=true&w=majority"
+    },
     "resources": {
       "StormGlass": {
         "apiUrl": "https://api.stormglass.io/v2",
