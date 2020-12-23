@@ -1,5 +1,6 @@
 {
   "App": {
+    "port": 3000,
     "database": {
       "mongoUrl": "mongodb+srv://henrispkl:454689@medicare.m4sua.gcp.mongodb.net/surf-forecast?retryWrites=true&w=majority"
     },
