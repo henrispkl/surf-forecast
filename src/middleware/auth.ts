@@ -9,6 +9,8 @@ export function authMiddleware(
   const token = req.headers?.['x-access-token'];
   try {
     const decoded = AuthService.decodeToken(token as string);
+    // eslint-disable-next-line
+    // @ts-ignore
     req.decoded = decoded;
     next();
   } catch (err) {
