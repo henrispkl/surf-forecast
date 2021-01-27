@@ -99,7 +99,6 @@ describe('Users functional test', () => {
       const response = await global.testRequest
         .post('/users/authenticate')
         .send({ email: newUser.email, password: 'different password' });
-
       expect(response.status).toBe(401);
     });
   });
