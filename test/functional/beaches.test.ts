@@ -50,9 +50,5 @@ describe('Beaches functional tests', () => {
         message: 'request.body.lat should be number',
       });
     });
-
-    it.skip('should return 500 when there is any error other than validation error', async () => {
-      // TODO think in a way to throw a 500
-    });
   });
 });
